@@ -6,23 +6,23 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 215 16% 47%;
+    --background: 222 47% 11%;
+    --foreground: 213 31% 91%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 16% 47%;
+    --card: 222 47% 11%;
+    --card-foreground: 213 31% 91%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 16% 47%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 213 31% 91%;
 
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 13% 91%;
-    --secondary-foreground: 215 16% 47%;
+    --secondary: 222 47% 15%;
+    --secondary-foreground: 213 31% 91%;
 
-    --muted: 220 13% 91%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 222 47% 15%;
+    --muted-foreground: 215 20% 70%;
 
     --accent: 217 91% 60%;
     --accent-foreground: 0 0% 100%;
@@ -30,22 +30,28 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 0 0% 100%;
+    --border: 222 47% 20%;
+    --input: 222 47% 15%;
     --ring: 217 91% 60%;
 
-    --radius: 12px;
+    --radius: 16px;
 
-    /* AI Assistant specific colors */
-    --ai-gradient-start: 248 100% 97%;
-    --ai-gradient-end: 0 0% 100%;
-    --ai-title: 217 91% 60%;
-    --ai-subtitle: 215 16% 47%;
-    --ai-input-bg: 0 0% 100%;
-    --ai-input-border: 220 13% 91%;
+    /* Dark Theme AI Assistant specific colors with glassmorphism */
+    --ai-gradient-start: 250 100% 15%;
+    --ai-gradient-middle: 270 100% 25%;
+    --ai-gradient-end: 222 47% 11%;
+    --ai-title: 0 0% 100%;
+    --ai-subtitle: 213 31% 75%;
+    --ai-input-bg: 222 47% 15%;
+    --ai-input-bg-glass: 222 47% 15% / 0.3;
+    --ai-input-border: 217 91% 60% / 0.2;
+    --ai-input-border-hover: 217 91% 60% / 0.4;
     --ai-button: 217 91% 60%;
-    --ai-button-hover: 217 91% 55%;
-    --ai-disclaimer: 215 20% 65%;
+    --ai-button-hover: 217 91% 65%;
+    --ai-button-glass: 217 91% 60% / 0.1;
+    --ai-disclaimer: 213 31% 65%;
+    --ai-glass-bg: 0 0% 100% / 0.05;
+    --ai-glass-border: 0 0% 100% / 0.1;
 
     --sidebar-background: 0 0% 98%;
 

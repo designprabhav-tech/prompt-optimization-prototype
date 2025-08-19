@@ -54,14 +54,20 @@ export default {
 				},
 				ai: {
 					'gradient-start': 'hsl(var(--ai-gradient-start))',
+					'gradient-middle': 'hsl(var(--ai-gradient-middle))',
 					'gradient-end': 'hsl(var(--ai-gradient-end))',
 					'title': 'hsl(var(--ai-title))',
 					'subtitle': 'hsl(var(--ai-subtitle))',
 					'input-bg': 'hsl(var(--ai-input-bg))',
+					'input-bg-glass': 'hsl(var(--ai-input-bg-glass))',
 					'input-border': 'hsl(var(--ai-input-border))',
+					'input-border-hover': 'hsl(var(--ai-input-border-hover))',
 					'button': 'hsl(var(--ai-button))',
 					'button-hover': 'hsl(var(--ai-button-hover))',
-					'disclaimer': 'hsl(var(--ai-disclaimer))'
+					'button-glass': 'hsl(var(--ai-button-glass))',
+					'disclaimer': 'hsl(var(--ai-disclaimer))',
+					'glass-bg': 'hsl(var(--ai-glass-bg))',
+					'glass-border': 'hsl(var(--ai-glass-border))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
