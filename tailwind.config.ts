@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				ai: {
+					'gradient-start': 'hsl(var(--ai-gradient-start))',
+					'gradient-end': 'hsl(var(--ai-gradient-end))',
+					'title': 'hsl(var(--ai-title))',
+					'subtitle': 'hsl(var(--ai-subtitle))',
+					'input-bg': 'hsl(var(--ai-input-bg))',
+					'input-border': 'hsl(var(--ai-input-border))',
+					'button': 'hsl(var(--ai-button))',
+					'button-hover': 'hsl(var(--ai-button-hover))',
+					'disclaimer': 'hsl(var(--ai-disclaimer))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
