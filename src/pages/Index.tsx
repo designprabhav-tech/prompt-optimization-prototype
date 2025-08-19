@@ -41,14 +41,24 @@ const Index = () => {
               onChange={(e) => setQuery(e.target.value)}
               className="flex-1 border-0 bg-transparent text-base placeholder:text-ai-subtitle focus-visible:ring-0 focus-visible:ring-offset-0 px-4 py-3"
             />
-            <Button
-              type="submit"
-              size="sm"
-              className="bg-ai-button hover:bg-ai-button-hover text-white rounded-full px-6 py-3 flex items-center gap-2 font-medium"
-            >
-              Optimize
-              <ArrowRight className="w-4 h-4" />
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                className="bg-transparent border-ai-input-border text-ai-subtitle hover:bg-ai-input-border rounded-full px-4 py-2 font-medium"
+              >
+                Optimize
+              </Button>
+              <Button
+                type="submit"
+                size="sm"
+                className="bg-ai-button hover:bg-ai-button-hover text-white rounded-full px-4 py-2 flex items-center gap-1 font-medium"
+              >
+                Send
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </div>
           </div>
         </form>
 
